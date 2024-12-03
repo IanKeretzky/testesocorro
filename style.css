@@ -1,0 +1,73 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* border: solid red; */
+    box-sizing: border-box;
+}
+
+
+.snake {
+    margin-top: 40px;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 36px;
+}
+
+.sangue {
+    height: 75vh;
+    width: 95vw;
+}
+
+.sangue,
+.imagenz {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.balada {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 130px;
+    height: 80px;
+    background-color: rgb(243, 174, 46);
+    cursor: pointer;
+    color: #000000;
+    border-radius: 30px;
+    font-size: 27px;
+    border: 2px solid #ffffff;
+
+}
+
+button a {
+    text-decoration: none;
+    color: #f3ae2e;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #f3ae2e;
+    border: 2px solid #f3ae2e;
+}
+
+button a:hover {
+    color: #f3ae2e;
+}
+
+.severino {
+    border-radius: 86px;
+    max-width: 250px;
+    max-height: 150px;
+    background-color: #f3ae2e;
+    border: 2px solid #ffffff;
+}
